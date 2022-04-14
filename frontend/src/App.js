@@ -5,6 +5,7 @@ import Navigation from './components/shared/Navigation/Navigation';
 import Authenticate from './pages/Authenticate/Authenticate';
 import Activate from './pages/Activate/Activate';
 import Rooms from './pages/Rooms/Rooms';
+import Room from './pages/Room/Room'
 import { useSelector } from 'react-redux';
 import {useState} from 'react'
 import {useLoadingWithRefresh} from './hooks/useLoadingWithRefresh'
@@ -35,6 +36,9 @@ function App() {
 					</SemiProtectedRoute>
 					<ProtectedRoute path="/rooms">
 						<Rooms />
+					</ProtectedRoute>
+					<ProtectedRoute path="/room/:id">
+						<Room />
 					</ProtectedRoute>
 				</Switch>
 			</BrowserRouter>

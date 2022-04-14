@@ -1,6 +1,8 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import styles from './Rooms.module.css'
 import RoomCard from '../../components/RoomCard/RoomCard'
+import AddRoomModal from '../../components/AddRoomModal/AddRoomModal'
+import {getAllRooms} from '../../http'
 
 
 const rooms = [
@@ -75,6 +77,26 @@ const rooms = [
 ];
 
 const Rooms = () => {
+
+	const [showModal, setShowModal] = useState(false)
+	const [rooms, setRooms] = useState([])
+
+	useEffect(() => {
+		const fetchRooms = async () => {
+			const {data} = await getAllRooms()
+			setRooms(data)
+		}
+		fetchRooms()
+	}, [])
+
+	function openModal() {
+		setShowModal(true)
+	}
+
+	function onClose() {
+		setShowModal(false)
+	}
+
 	return <>
 		<div className="container">
 			<div className={styles.roomsheader}>
@@ -86,7 +108,7 @@ const Rooms = () => {
 					</div>
 				</div>
 				<div className={styles.right}>
-					<button className={styles.startRoomButton}>
+					<button className={styles.startRoomButton} onClick={openModal}>
 						<img src="/images/add-room-icon.png" alt="add room"/>
 						<span>Start a room</span>
 					</button>
@@ -100,6 +122,7 @@ const Rooms = () => {
 			</div>
 
 		</div>
+		{showModal && <AddRoomModal onClose={onClose}/>}
 	</>;
 };
 
