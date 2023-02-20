@@ -71,13 +71,13 @@ Since codershouse uses Twilio for sending OTPs.
 
 ## Screenshots
 
-OTP page <br/><img src="https://raw.githubusercontent.com/AshishPandagre/codershouse/main/screenshots/Screenshot%20from%202022-07-08%2023-49-49.png?token=GHSAT0AAAAAABVWBDWQ6AXV5U4TGU2DPYYKYWIQYPQ" width="40%" height="40%"> <br/> <br/>
+[OTP page](https://raw.githubusercontent.com/AshishPandagre/codershouse/main/screenshots/Screenshot%20from%202022-07-08%2023-49-49.png?token=GHSAT0AAAAAABVWBDWQ6AXV5U4TGU2DPYYKYWIQYPQ) <br/>
 
-Add profile picture <br/> <img src="https://raw.githubusercontent.com/AshishPandagre/codershouse/main/screenshots/Screenshot%20from%202022-07-08%2023-50-09.png?token=GHSAT0AAAAAABVWBDWQHQEH6XD4RWNFQAKUYWIQYAQ " width="40%" height="40%"><br/><br/>
+[Add profile picture](https://raw.githubusercontent.com/AshishPandagre/codershouse/main/screenshots/Screenshot%20from%202022-07-08%2023-50-09.png?token=GHSAT0AAAAAABVWBDWQHQEH6XD4RWNFQAKUYWIQYAQ ) <br/>
 
-Audio Rooms <br/><img src="https://raw.githubusercontent.com/AshishPandagre/codershouse/main/screenshots/Screenshot%20from%202022-07-08%2023-55-06.png?token=GHSAT0AAAAAABVWBDWRQUBHVEXTNGZLPFK6YWIQYQQ" width="40%" height="40%"><br/><br/>
+[Audio Rooms](https://raw.githubusercontent.com/AshishPandagre/codershouse/main/screenshots/Screenshot%20from%202022-07-08%2023-55-06.png?token=GHSAT0AAAAAABVWBDWRQUBHVEXTNGZLPFK6YWIQYQQ) <br/>
 
-SIngle Audio room layout<br/><img src="https://raw.githubusercontent.com/AshishPandagre/codershouse/main/screenshots/Screenshot%20from%202022-07-09%2000-02-11.png?token=GHSAT0AAAAAABVWBDWQLTKCOKNRWSCIXPJAYWIQYRA" width="40%" height="40%"><br/><br/>
+[SIngle Audio room layout](https://raw.githubusercontent.com/AshishPandagre/codershouse/main/screenshots/Screenshot%20from%202022-07-09%2000-02-11.png?token=GHSAT0AAAAAABVWBDWQLTKCOKNRWSCIXPJAYWIQYRA)<br/>
 
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
